@@ -13,7 +13,7 @@ try:
     fobj = open(fname,'r')
 except IOError, e:
     # 文件不存在已经包含在该异常内
-    # TODO 如何做文件名打印 file:%s
+    # 如何做文件名打印 file:%s  参考0609/string_.py
     print("*** file open error:", e)
 else: # 此处else用法
     for eachLine in fobj:
