@@ -1,6 +1,6 @@
 # !/usr/bin/python
 # -*- coding: utf-8 -*-
-# __author__:  Rewrite
+# __author__:  Reworld
 # from __future__ import division
 
 if __name__ == "__main__":
