@@ -10,7 +10,7 @@ def cutLastChr(char="test"):
     for i in range(-1,-len(char), -1):  # 输出完整字符串  for i in [None] + range(-1,len(char),1)
         print(i)
         print(char[:i])
-
+        # 使用[None].extend()返回值是None,None既不是序列类型也不是可迭代对象
 
 if __name__ == "__main__":
     test_char = 'abcde'
