@@ -6,7 +6,7 @@ if __name__ == "__main__":
     """数字对象"""
     # 创建数字对象
     anInt = 1
-    aLong = -55L  # 注意用大写L
+    aLong = -55  # 注意用大写L Python3 不用L
     aFloat = 3.1415
     aComplex = 1.23 + 4.56j
     # 更新数字对象

@@ -11,10 +11,7 @@ if __name__ == "__main__":
     # 1.41421356237
 
     # 自定义两个数值类型转换
-    print(coerce(1,2))
-    print(coerce(1.3, 13L))
-    print(coerce(1,134L))
-    print(coerce(1j,134L))
+
     # (1, 2)
     # (1.3, 13.0)
     # (1L, 134L)

@@ -67,4 +67,7 @@ if __name__ == "__main__":
     # compareString()
     # print(string.digits)
     # conncetString()
-    stringFormat()
+    # stringFormat()
+    a = 'ab'
+    b = 'cd'
+    print(a+b)

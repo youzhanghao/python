@@ -7,13 +7,13 @@ import os
 
 ls = os.linesep # 本地变量别名
 
-fname = raw_input("\nplease input filename\n")
+fname = input("\nplease input filename\n")
 
 all = []
 print("\nEnter lines ('.' by itself to quit).\n")
 
 while True:
-    entry = raw_input(">")
+    entry = input(">")
     if entry == '.':
         break
     else:
