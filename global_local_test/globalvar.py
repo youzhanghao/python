@@ -3,7 +3,7 @@
 __author__ = "youzhanghao"
 
 
-
+# TODO 类中可否定义全局变量
 
 
 def _init():#初始化

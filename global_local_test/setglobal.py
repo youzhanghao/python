@@ -4,7 +4,7 @@ __author__ = "youzhanghao"
 
 # 注意当前文件用 . 引入 TODO from 或 import默认路径是从哪开始算的
 # 文件夹名和文件名不要用关键字
-import global_test.globalvar as gol
+import global_local_test.globalvar as gol
 
 def test():
 

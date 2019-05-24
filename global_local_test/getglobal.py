@@ -2,7 +2,7 @@
 #-*- coding=utf-8 -*-
 __author__ = "youzhanghao"
 
-import global_test.globalvar as gol
+import global_local_test.globalvar as gol
 
 def test():
 

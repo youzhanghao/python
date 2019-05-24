@@ -5,8 +5,6 @@
 if __name__ == "__main__":
     str1 = 'abc'
     str2 = 'lmn'
-    print(cmp(str1, str2))
-    print(cmp('abc','gef'))
     print(len(str1))
     print(max(str2),min(str2))
     # -1
@@ -27,13 +25,12 @@ if __name__ == "__main__":
     else:
         print('false')
 
-    print(isinstance(u'',basestring))
     # false
     # True
 
-    print chr(65) # 0-255
-    print ord('A') # 一个字符作为参数
-    print ord(u'\u2345')
+    print (chr(65)) # 0-255
+    print (ord('A')) # 一个字符作为参数
+    print (ord(u'\u2345'))
     # A
     # 65 ascii值
     # 9029 unicode数值

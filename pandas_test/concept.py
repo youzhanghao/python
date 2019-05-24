@@ -9,6 +9,8 @@ def test():
 
 	# dates = pd.date_range('20130101',periods=6)
 	dates = pd.date_range('20130101', periods=6)
+	dates_b = pd.date_range('20190519', periods=30,freq='1M')
+	print(dates_b)
 
 	# print(dates)
 	# df = pd.DataFrame(np.random.randn(6,4),index=dates,columns=list['ABCD'])
