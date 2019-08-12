@@ -30,7 +30,7 @@ def test():
 	# 读取索引
 	print(df.index)
 	# 读取列
-	print(df.columns)
+	print("列"+df.columns)
 	df.to_numpy()
 	# 多数据类型 转 numpy花销大
 	print(df.to_numpy())
@@ -43,8 +43,9 @@ def test():
 	print(df_t)
 	print(df_t.columns)
 	print(df.sort_index(axis=1,ascending=False))
-	print(dates[0])
-	print(df.loc[dates[0]].index)
+	print("第0行 %s" % dates[0])
+	print(df.loc[dates[0]])
+
 
 if __name__ == '__main__':
     test()

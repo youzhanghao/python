@@ -16,25 +16,26 @@ __author__ = "youzhanghao"
 # 使用import module时，module本身被引入，但是保存它原有的命名空间，所以我们需要使用module.name这种方式访问它的 函数和变量。
 # from module import这种方式，是将其它模块的函数或者变量引到当前的命名空间中，所以就不需要使用module.name这种方式访问其它的模块的方法了。
 
-# from global_local_test.setglobal import test as testset
-# from global_local_test.getglobal import test as gettest
+from global_local_test.setglobal import test as testset
+from global_local_test.getglobal import test as gettest
 # import global_local_test.global_local_diiff
-from global_local_test.global_local_diiff import *
+# from global_local_test.global_local_diiff import *
+# from global_local_test.global_class import GlobalTest
 
 
 if __name__ == '__main__':
-	# testset()
-	# gettest()
+	testset()
+	gettest()
 	# gol_wb = global_local_test.global_local_diiff.gols
 	# gols = 'a'
-	gol_fm = gols
-	print(test_gol)
-	print("=============")
-	print(gol_fm["cc"])
-	# print(gol_w"cc"])
-	print("=============")
-	gol_ts = globals()
-	print(gol_ts)
+	# gol_fm = gols
+	# print(test_gol)
+	# print("=============")
+	# print(gol_fm["cc"])
+	# # print(gol_w"cc"])
+	# print("=============")
+	# gol_ts = globals()
+	# print(gol_ts)
 	# gols = globals()
 	# gols["cc"] = 'orange'
 	# print(gols)

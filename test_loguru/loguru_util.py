@@ -36,11 +36,17 @@ class Loguru(object):
 	def get_logger(self):
 		return self._log
 
-@logger.catch()
+# @logger.catch()
 def test(x):
-	return 1 / (x)
+	loguru_test = Loguru()
+	loguru_test.info('this is self info')
+	loguru_test.get_logger().warning('this is warning message')
+	loguru_test.info("这是一条信息")
+	# return 1 / (x)
 if __name__ == '__main__':
 	loguru_test = Loguru()
 	loguru_test.info('this is self info')
 	loguru_test.get_logger().warning('this is warning message')
-	test(0)
+	loguru_test.info("这是一条信息")
+	# test(0)
+test(0)

@@ -3,9 +3,8 @@
 __author__ = "youzhanghao"
 
 
-''' 1. 配置数据库字段与Excel表头对应关系 
-	2. 配置导出的行数与列数
-	3. 配置简单样式
+''' 
+    1. 扫描数据实例全库全表字段充盈度
 '''
 import xlwt
 import pymysql
@@ -118,5 +117,7 @@ if __name__ == "__main__":
     # export('localhost','root','1234Ab..','demo','lk_sales_user_test',r'datetest.xlsx')
     # export('10.19.248.200','laikang','123Ab..','test_filling_degree','test_user_two',r'datetest.xlsx',30166)
     export('10.19.248.200','laikang','123Ab..',None,None,r'datetest.xlsx',30166)
+
+
 
 

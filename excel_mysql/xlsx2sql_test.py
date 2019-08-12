@@ -15,6 +15,7 @@ def test():
 	tool = XlsxTool()
 	# table_header_type = ['varchar(100) not null','int(100) ','varchar(255)','varchar(100)']
 	table_header_type = ['int(100) not null comment "主键" ','varchar(255) ','varchar(255)','varchar(255)','varchar(30)','varchar(30)','varchar(100) not null']
+	self_define = {"部门":"deparment not null varchar(255) comment '部门'"}
 	release = Xlsx2sql(tool)
 	release.generate(r'/Users/youzhanghao/Desktop/python/python/excel_mysql/readout.xlsx',table_header_type,"id",r'./readout.sql')
 
